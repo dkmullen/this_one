@@ -53,3 +53,50 @@ input[type="number"] {
      border-radius: 0;
 }
 /* -------------End of style reset ------------------ */
+
+body {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+#wrapper {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+#redbox {
+	background-color: #ff476c;
+	width: 100%;
+	height: 250px;
+}
+#bluebox {
+	background-color: #306c83;
+	width: 100%;
+	height: 300px;
+}
+#yellowbox {
+	background-color: #fff7bb;
+	width: 100%;
+	height: 300px;
+}
+#greenbox {
+	background-color:#1B676B;
+	width: 100%;
+	height: 300px;
+}
+footer {
+	background-color: #e5e5e7;
+	width: 100%;
+	height: 150px;
+	
+}
+
+@media screen and (min-width: 500px) {
+	#bluebox, #yellowbox {
+		width: 50%;
+	}
+}
+@media screen and (min-width: 800px) {
+	#bluebox, #yellowbox, #greenbox {
+		width: 33.33%;
+	}
+}
